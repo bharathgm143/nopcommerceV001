@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="3" failures="0" name="testRunner.Testrun" time="157.12" errors="2" skipped="0">
+  <properties>
+    <property name="jansi.mode" value="force"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\bin"/>
+    <property name="java.vm.version" value="25.202-b08"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\BHARATH\eclipse-workspace\nopCommerceV001"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\BHARATH\eclipse-workspace\nopCommerceV001"/>
+    <property name="java.runtime.version" value="1.8.0_202-b08"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\BHARATH\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\BHARATH\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf5174401781746473219.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_202\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\nodejs\;C:\Users\BHARATH\AppData\Local\Android\Sdk\platform-tools;C:\Users\BHARATH\AppData\Local\Android\Sdk\tools;C:\Users\BHARATH\AppData\Local\Android\Sdk\build-tools;C:\Users\BHARATH\AppData\Local\Android\Sdk\build-tools\33.0.2\lib;C:\Program Files\Java\jdk-19\bin;C:\Program Files\Java\jdk-19\lib;C:\Users\BHARATH\AppData\Local\Android\Sdk\tools\bin;C:\Program Files\Android\Android Studio\jre\bin;C:\Users\BHARATH\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\Azure Data Studio\bin;C:\Users\BHARATH\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.1\bin;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\BHARATH"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="BHARATH"/>
+    <property name="java.class.path" value="C:\Users\BHARATH\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_202\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B -Dstyle.color=always test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_202"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_202\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\BHARATH\eclipse-workspace\nopCommerceV001\EMBEDDED"/>
+    <property name="style.color" value="always"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="m2e.build.project.data.socket.port" value="49364"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="Customers" name="Add new customer" time="43.923"/>
+  <testcase classname="Customers" name="Search customer	by Email id" time="55.154">
+    <error message="Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on WINDOWS (4bdc65e1e120556d7f10361a10292628)] -&gt; id: SearchEmail] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;ADMIN&apos;, ip: &apos;192.168.43.133&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_202&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\BHARATH\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:49398}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4bdc65e1e120556d7f10361a10292628" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on WINDOWS (4bdc65e1e120556d7f10361a10292628)] -&gt; id: SearchEmail] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;ADMIN&apos;, ip: &apos;192.168.43.133&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_202&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\BHARATH\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:49398}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4bdc65e1e120556d7f10361a10292628
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at utilites.WaitHelper.waitforelement(WaitHelper.java:16)
+	at pageObjects.SearchCustomerPage.setEmail(SearchCustomerPage.java:52)
+	at stepDefinations.Steps.enter_customer_Email(Steps.java:168)
+	at ✽.Enter customer Email(file:Features/Customers.feature:23)
+</error>
+    <system-out>
+  Background: Below are the common steps for all Scenario                  # Features/Customers.feature:3
+ INFO [main] (Steps.java:54)- **********Launching Browser**********
+    Given User Launch Chrome browser                                       # Steps.user_Launch_Chrome_browser()
+ INFO [main] (Steps.java:61)- **********Opening Url**********
+    When User opens URL &quot;https://admin-demo.nopcommerce.com/login&quot;         # Steps.user_opens_URL(String)
+ INFO [main] (Steps.java:68)- **********Providing Login Details**********
+    And User enters email as &quot;admin@yourstore.com&quot; and Password as &quot;admin&quot; # Steps.user_enters_email_as_and_Password_as(String,String)
+ INFO [main] (Steps.java:75)- ********** Started Login **********
+    And click on Login                                                     # Steps.click_on_Login()
+    Then User Can View Dashboard                                           # Steps.user_Can_View_Dashboard()
+
+  Scenario: Search customer	by Email id             # Features/Customers.feature:20
+    When user click on customers Menu               # Steps.user_click_on_customers_Menu()
+    And click on customer Menu Item                 # Steps.click_on_customer_Menu_Item()
+    And Enter customer Email                        # Steps.enter_customer_Email()
+      org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on WINDOWS (4bdc65e1e120556d7f10361a10292628)] -&gt; id: SearchEmail] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;ADMIN&apos;, ip: &apos;192.168.43.133&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_202&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\BHARATH\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:49398}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4bdc65e1e120556d7f10361a10292628
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at utilites.WaitHelper.waitforelement(WaitHelper.java:16)
+	at pageObjects.SearchCustomerPage.setEmail(SearchCustomerPage.java:52)
+	at stepDefinations.Steps.enter_customer_Email(Steps.java:168)
+	at ?.Enter customer Email(file:Features/Customers.feature:23)
+
+    When Click on Search button                     # Steps.click_on_Search_button()
+    Then User should find email in the search table # Steps.user_should_find_email_in_the_search_table()
+    And close browser                               # Steps.close_browser()
+</system-out>
+    <system-err>Starting ChromeDriver 112.0.5615.49 (bd2a7bcb881c11e8cfe3078709382934e3916914-refs/branch-heads/5615@{#936}) on port 29095
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1685241557.092][WARNING]: This version of ChromeDriver has not been tested with Chrome version 113.
+May 28, 2023 8:09:17 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
+  <testcase classname="Customers" name="Search customer	by Name" time="58.043">
+    <error message="Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on WINDOWS (4f251ba8de60f333f3568d3d64346f01)] -&gt; id: SearchFirstName] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;ADMIN&apos;, ip: &apos;192.168.43.133&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_202&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\BHARATH\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:49683}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4f251ba8de60f333f3568d3d64346f01" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on WINDOWS (4f251ba8de60f333f3568d3d64346f01)] -&gt; id: SearchFirstName] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;ADMIN&apos;, ip: &apos;192.168.43.133&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_202&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\BHARATH\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:49683}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4f251ba8de60f333f3568d3d64346f01
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at utilites.WaitHelper.waitforelement(WaitHelper.java:16)
+	at pageObjects.SearchCustomerPage.setFirstName(SearchCustomerPage.java:57)
+	at stepDefinations.Steps.enter_customer_FirstName(Steps.java:184)
+	at ✽.Enter customer FirstName(file:Features/Customers.feature:31)
+</error>
+    <system-out>
+  Background: Below are the common steps for all Scenario                  # Features/Customers.feature:3
+ INFO [main] (Steps.java:54)- **********Launching Browser**********
+    Given User Launch Chrome browser                                       # Steps.user_Launch_Chrome_browser()
+ INFO [main] (Steps.java:61)- **********Opening Url**********
+    When User opens URL &quot;https://admin-demo.nopcommerce.com/login&quot;         # Steps.user_opens_URL(String)
+ INFO [main] (Steps.java:68)- **********Providing Login Details**********
+    And User enters email as &quot;admin@yourstore.com&quot; and Password as &quot;admin&quot; # Steps.user_enters_email_as_and_Password_as(String,String)
+ INFO [main] (Steps.java:75)- ********** Started Login **********
+    And click on Login                                                     # Steps.click_on_Login()
+    Then User Can View Dashboard                                           # Steps.user_Can_View_Dashboard()
+
+  Scenario: Search customer	by Name                # Features/Customers.feature:28
+    When user click on customers Menu              # Steps.user_click_on_customers_Menu()
+    And click on customer Menu Item                # Steps.click_on_customer_Menu_Item()
+    And Enter customer FirstName                   # Steps.enter_customer_FirstName()
+      org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on WINDOWS (4f251ba8de60f333f3568d3d64346f01)] -&gt; id: SearchFirstName] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;ADMIN&apos;, ip: &apos;192.168.43.133&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_202&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\BHARATH\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:49683}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4f251ba8de60f333f3568d3d64346f01
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at utilites.WaitHelper.waitforelement(WaitHelper.java:16)
+	at pageObjects.SearchCustomerPage.setFirstName(SearchCustomerPage.java:57)
+	at stepDefinations.Steps.enter_customer_FirstName(Steps.java:184)
+	at ?.Enter customer FirstName(file:Features/Customers.feature:31)
+
+    And Enter customer LastName                    # Steps.enter_customer_LastName()
+    When Click on Search button                    # Steps.click_on_Search_button()
+    Then User should find Name in the search table # Steps.user_should_find_Name_in_the_search_table()
+    And close browser                              # Steps.close_browser()
+</system-out>
+    <system-err>Starting ChromeDriver 112.0.5615.49 (bd2a7bcb881c11e8cfe3078709382934e3916914-refs/branch-heads/5615@{#936}) on port 18383
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1685241612.214][WARNING]: This version of ChromeDriver has not been tested with Chrome version 113.
+May 28, 2023 8:10:12 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
+</testsuite>
